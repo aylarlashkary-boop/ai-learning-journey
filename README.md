@@ -1,29 +1,32 @@
-# AI Learning Journey
-Welcome to my AI learning journey!
+# Student Score Analysis
 
-I'm a Computer Engineering student building my foundations in Python, data analysis, and Machine Learning.
+A beginner-friendly Python exercise that summarizes a list of student scores.
 
-This repository documents my learning process through small exercises, notes, and beginner-friendly projects.
+## What it does
 
-## Learning Goals
-- [ ] Strengthen my Python fundamentals
-- [ ] Learning data analysis and visualization
-- [ ] Understand the fundamentals of Machine Learning
-- [ ] Build practical projects step by step
-- [ ] Build a strong foundation in Artificial Intelligence
+- Calculates the average score.
+- Counts scores at or above the passing threshold (`10`).
+- Finds the highest score.
+- Handles an empty list with a clear `ValueError`.
 
-## Topics
-- [ ] Python fundamentals
-- [ ] NumPy and Pandas
-- [ ] Data visualization
-- [ ] Machine Learning fundamentals
-- [ ] Model evaluation
-- [ ] Beginner-friendly AI projects
+## Run the notebook
 
-## Projects
-Projects will be added as I learn and practice new concepts.
+Open `student_score_analysis.ipynb` in Jupyter Notebook or JupyterLab and run the cells from top to bottom.
 
-## Learning Philosophy
-I focus on understanding the concepts, practicing consistently, and documenting my progress honestly.
+## Example
 
-this repository is a work in progress.
+For the scores `[12, 18, 7, 15, 9, 20, 14]`, the results are:
+
+```text
+Average score: 13.57
+Passing students: 5
+Highest score: 20
+```
+
+## Concepts practiced
+
+Python functions, lists, conditionals, built-in functions (`sum`, `len`, `max`), dictionaries, and exception handling.
+
+## Limitations
+
+This exercise assumes the list contains numeric scores. It does not validate score ranges or other input types.
